@@ -9,7 +9,7 @@ function trailingZeros(n) {
 		{
 			fact*=i
 		}
-	let arr=fact.split("")
+	let arr=String(fact).split("")
 	let count=0
 	for(let j=arr.length-1;j>=0;j--)
 		{
@@ -21,5 +21,5 @@ function trailingZeros(n) {
 	return count
 }
 
-const input = prompt("Enter a number");
-alert(trailingZeros(input));
+// const input = prompt("Enter a number");
+// alert(trailingZeros(input));
